@@ -9,7 +9,7 @@ import LeaderBoard from "./LeaderBoard";
 const NavBar = () => {
     return (
         
-        <Router>
+        <Router forceRefresh>
             <div className="navBar">
                 <nav>
                     <ul>
