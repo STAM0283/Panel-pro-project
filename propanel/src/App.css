@@ -50,7 +50,7 @@ option{
   border: 2px solid black;
   
 }
-.active {
+a.active {
   background-color: tomato;
 }
 .name{
