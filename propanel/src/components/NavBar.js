@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 import SelectionUsers from "./SelectionUsers"; 
 import Accueil from "./Accueil";
 import NouvelleQuestion from "./NouvelleQuestion";
@@ -14,22 +14,22 @@ const NavBar = () => {
                 <nav>
                     <ul>
                         <li>
-                            <NavLink exact to = "/" activeClassName = "active">
+                            <NavLink exact activeClassName = "active" to = "/" >
                                 <p>SELECTIONER UN UTILISATEUR</p>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to = "/accueil" activeClassName = "active">
+                            <NavLink  exact activeClassName = "active" to = "/accueil" >
                                 <p>ACCUEIL</p>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink  to = "/nouvelle-question" activeClassName = "active">
+                            <NavLink  exact activeClassName = "active" to = "/nouvelle-question">
                                 <p>NOUVELLE QUESTION</p>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink  to = "/leader-board" activeClassName = "active">
+                            <NavLink exact activeClassName = "active" to = "/leader-board">
                                 <p>LEADERBOARD</p>
                             </NavLink>
                         </li>
