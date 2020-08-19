@@ -1,12 +1,68 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table{
+  border: 2px solid black;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
 }
-
+.accueil{
+  margin-left: 40%;
+}
+td{
+  border: 2px solid black;
+  width: 60px;
+}
+tr{
+  border: 2px solid black;
+}
+button{
+  cursor: pointer;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+li a{
+  color: wheat;
+  font-size: xx-large;
+  list-style: none;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+}
+select{
+   width: 20%;
+   height: 10%;
+   font-size: xx-large;
+}
+.select p{
+  font-size: xx-large;
+  margin-top: 18%;
+  color: blue;
+  font-style: italic;
+}
+option{
+  background-color: aqua;
+  border: 2px solid black;
+  
+}
+.active{
+  background-color: wheat;
+}
+.name{
+  color: chartreuse;
+  font-size: xx-large;
+  font-style: oblique;
+  border-bottom: 3px solid black;
+}
+.question{
+  color: red;
+  font-size: xx-large;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
