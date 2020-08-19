@@ -50,8 +50,8 @@ option{
   border: 2px solid black;
   
 }
-.active{
-  background-color: wheat;
+.active {
+  background-color: tomato;
 }
 .name{
   color: chartreuse;
