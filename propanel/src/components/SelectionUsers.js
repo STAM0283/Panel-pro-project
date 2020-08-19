@@ -14,7 +14,7 @@ const SelectionUsers = () => {
   return (
     <div className="select">
     <p>Selectionner un utilisateur</p>
-      <select onChange >
+      <select style = {{cursor: "pointer"}} >
         
           {users.map((user) => <option key = {user.id}>{user.name}</option>)}
           
